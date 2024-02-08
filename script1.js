@@ -15,7 +15,7 @@ registrationForm.addEventListener('submit', (e) => {
     password: passwordInput.value,
   };
   users.push(newUser);
-  messageElement.textContent = 'Registro Existoso Bienvenido Claretiano!';
+  messageElement.textContent = 'Registro Exitoso Bienvenido Claretiano!';
   setTimeout(() => {
     messageElement.textContent = '';
     window.location.href = 'index2.html';
